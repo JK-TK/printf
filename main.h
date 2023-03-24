@@ -15,7 +15,9 @@ typedef struct print
 	int (*f)(va_list);
 } print_t;
 
-int _printf(const char *format, ...); /* functions that prints a single character to the console*/
+/* fuctions that prints a single character tothe console*/
+
+int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list c);
 int print_s(va_list s);
